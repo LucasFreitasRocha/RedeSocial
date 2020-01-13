@@ -1,11 +1,11 @@
 <template>
   <div id="app">
     <header>
-      <nav-bar logo="social"/>
+      <nav-bar logo="Social"/>
     </header>
     <main class="container">
       <div class="row">
-        <c-grid tamanho="4"> <c-menu/> </c-grid>
+        <c-grid tamanho="4"> <c-menu nome="Yoda Jedi"/> </c-grid>
         <c-grid tamanho="8">
             <router-view/>
         </c-grid>

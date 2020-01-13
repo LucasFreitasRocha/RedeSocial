@@ -7,9 +7,8 @@
         </c-grid>
         <c-grid tamanho="8">
             <span class="black-text">
-                <h5>Maria Silva</h5>
-                This is a square image. Add the "circle" class to it to make it
-                appear circular.
+                <h5>{{nome}}</h5>
+                O melhor Jedi da porra toda.
             </span>
         </c-grid>
     </div>
@@ -20,6 +19,7 @@
 import CGrid from '@/components/layout/CGrid'
 export default {
   name: 'CMenu',
+  props: ['nome'],
   components: {
     CGrid
   },
